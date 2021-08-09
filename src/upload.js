@@ -15,7 +15,7 @@ class UploadS3 extends Component {
     upload(e){
       console.log(e.target.files[0]);
       ReactS3.uploadFile(e.target.files[0],config).then((data)=>{
-      console.log("succes");
+      console.log("success");
       })
       .catch((err) => {
         alert(err);
