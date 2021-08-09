@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d1d393c3c4098b6d467b",
+    "revision": "882875135ea8b56a00a9",
     "url": "/lifeeasyReact/static/css/main.7cd624cd.chunk.css"
   },
   {
-    "revision": "d1d393c3c4098b6d467b",
-    "url": "/lifeeasyReact/static/js/main.045aa854.chunk.js"
+    "revision": "882875135ea8b56a00a9",
+    "url": "/lifeeasyReact/static/js/main.59d765be.chunk.js"
   },
   {
     "revision": "d0010d99dcb370536ba7",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/lifeeasyReact/static/js/3.af959e76.chunk.js"
   },
   {
-    "revision": "2114e31423993dee2c92d8bed6b931a6",
+    "revision": "fcb0f43740f0603762843667eef42450",
     "url": "/lifeeasyReact/index.html"
   }
 ];
