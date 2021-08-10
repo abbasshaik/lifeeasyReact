@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ReactS3 from 'react-s3';
 import dotenv from 'dotenv';
+import UserService from './userservice';
 
 const config = {
   bucketName: 'lifeeasy',
@@ -29,6 +30,8 @@ class UploadS3 extends Component {
       </h3>
       <input type="file"
     onChange={this.upload}/>
+
+    <button onClick={UserService.convercsv} > Convert & Download</button>
     </div>
     );
   }
