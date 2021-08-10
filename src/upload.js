@@ -4,7 +4,7 @@ import ReactS3 from 'react-s3';
 
 const config = {
   bucketName: 'lifeeasy',
-  dirName: 'ingest/csv/',
+  dirName: 'ingest/csv',
   region: 'ap-south-1',
   accessKeyId: 'AKIAQEEAGBCBODYSBEVX',
   secretAccessKey: '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',
