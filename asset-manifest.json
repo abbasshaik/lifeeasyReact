@@ -1,15 +1,15 @@
 {
-  "main.css": "/lifeeasyReact/static/css/main.7cd624cd.chunk.css",
-  "main.js": "/lifeeasyReact/static/js/main.59d765be.chunk.js",
-  "main.js.map": "/lifeeasyReact/static/js/main.59d765be.chunk.js.map",
+  "main.css": "/lifeeasyReact/static/css/main.293666c6.chunk.css",
+  "main.js": "/lifeeasyReact/static/js/main.90c5cb39.chunk.js",
+  "main.js.map": "/lifeeasyReact/static/js/main.90c5cb39.chunk.js.map",
   "runtime~main.js": "/lifeeasyReact/static/js/runtime~main.d59d2d99.js",
   "runtime~main.js.map": "/lifeeasyReact/static/js/runtime~main.d59d2d99.js.map",
-  "static/js/2.4fa942c9.chunk.js": "/lifeeasyReact/static/js/2.4fa942c9.chunk.js",
-  "static/js/2.4fa942c9.chunk.js.map": "/lifeeasyReact/static/js/2.4fa942c9.chunk.js.map",
+  "static/js/2.81673db0.chunk.js": "/lifeeasyReact/static/js/2.81673db0.chunk.js",
+  "static/js/2.81673db0.chunk.js.map": "/lifeeasyReact/static/js/2.81673db0.chunk.js.map",
   "static/js/3.af959e76.chunk.js": "/lifeeasyReact/static/js/3.af959e76.chunk.js",
   "static/js/3.af959e76.chunk.js.map": "/lifeeasyReact/static/js/3.af959e76.chunk.js.map",
   "index.html": "/lifeeasyReact/index.html",
-  "precache-manifest.ac7b53ff7d1d52605e8920e5527971b1.js": "/lifeeasyReact/precache-manifest.ac7b53ff7d1d52605e8920e5527971b1.js",
+  "precache-manifest.7dc6d84042528f27e57677e099c7875c.js": "/lifeeasyReact/precache-manifest.7dc6d84042528f27e57677e099c7875c.js",
   "service-worker.js": "/lifeeasyReact/service-worker.js",
-  "static/css/main.7cd624cd.chunk.css.map": "/lifeeasyReact/static/css/main.7cd624cd.chunk.css.map"
+  "static/css/main.293666c6.chunk.css.map": "/lifeeasyReact/static/css/main.293666c6.chunk.css.map"
 }
