@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactS3 from "react-s3";
 import UserService from "./userservice";
-import "./upload.css";
+import "../css/upload.css";
 import axios from "axios";
 
 const config = {
@@ -63,20 +63,23 @@ class UploadS3 extends Component {
   render() {
     const { data, loading } = this.state;
     return (
-      <div id="uploadDiv" className="center animatedDiv">
-        <h3 style={{ color: "white" }}>Upload CSV File</h3>
-        <label className="btn btn-default">
+      <React.Fragment>
+        <div id="uploadDiv" className="center animatedDiv">
+          <h3 style={{ color: "white" }}>Upload CSV File</h3>
+
+          <label id="label" for="file-upload" className="custom-file-upload">
+            <i style={{ color: "white" }}> Chooose File</i>
+          </label>
           <input
+            id="file-upload"
             type="file"
             accept=".csv"
             className="file"
             onChange={this.upload}
           />
-        </label>
-
-        <div id="downloadxls">
+        </div>
+        <div id="downloadxls" className="center2">
           <a id="a" href="/" disabled>
-            {" "}
             <button id="b" className="btn btn-success" disabled>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +96,7 @@ class UploadS3 extends Component {
             </button>{" "}
           </a>
         </div>
-      </div>
+      </React.Fragment>
     );
   }
 }
