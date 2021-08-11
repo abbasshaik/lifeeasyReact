@@ -34,3 +34,18 @@
   left: 70px;
   top: 10px;
 }
+.animatedDiv {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove 0.5s;
+}
+@keyframes mymove {
+  from {
+    left: -100px;
+  }
+  to {
+    left: 0px;
+  }
+}
