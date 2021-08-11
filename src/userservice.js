@@ -1,11 +1,17 @@
 import axios from 'axios';
 
-const CONVERT_CSV_URL = "http://localhost:8080/api/lifeeasy/convert/csv";
+const CONVERT_CSV_URL = "http://localhost:8080/api/lifeeasy/convert/csv/";
+const DOWNLOAD_XLS = "http://localhost:8080/api/lifeeasy/downloadxls/addresses.xls";
 
 class UserService{
 
-    convercsv(){
-        axios.get(CONVERT_CSV_URL);
+    convercsv(fileName){
+         axios.post(CONVERT_CSV_URL+fileName);
+    }
+    downloadxls(){
+        
+        axios.get(DOWNLOAD_XLS);
+
     }
 }
 
