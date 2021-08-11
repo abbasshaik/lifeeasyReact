@@ -1,17 +1,17 @@
 {
-  "main.css": "/lifeeasyReact/static/css/main.0b868911.chunk.css",
-  "main.js": "/lifeeasyReact/static/js/main.90ead74c.chunk.js",
-  "main.js.map": "/lifeeasyReact/static/js/main.90ead74c.chunk.js.map",
-  "runtime~main.js": "/lifeeasyReact/static/js/runtime~main.5e1525e5.js",
-  "runtime~main.js.map": "/lifeeasyReact/static/js/runtime~main.5e1525e5.js.map",
+  "main.css": "/lifeeasyReact/static/css/main.b09359fa.chunk.css",
+  "main.js": "/lifeeasyReact/static/js/main.999a9bc9.chunk.js",
+  "main.js.map": "/lifeeasyReact/static/js/main.999a9bc9.chunk.js.map",
+  "runtime~main.js": "/lifeeasyReact/static/js/runtime~main.237a4bc3.js",
+  "runtime~main.js.map": "/lifeeasyReact/static/js/runtime~main.237a4bc3.js.map",
   "static/css/2.0cc7b9dd.chunk.css": "/lifeeasyReact/static/css/2.0cc7b9dd.chunk.css",
-  "static/js/2.7d87dd28.chunk.js": "/lifeeasyReact/static/js/2.7d87dd28.chunk.js",
-  "static/js/2.7d87dd28.chunk.js.map": "/lifeeasyReact/static/js/2.7d87dd28.chunk.js.map",
-  "static/js/3.96bc4697.chunk.js": "/lifeeasyReact/static/js/3.96bc4697.chunk.js",
-  "static/js/3.96bc4697.chunk.js.map": "/lifeeasyReact/static/js/3.96bc4697.chunk.js.map",
+  "static/js/2.baf0e330.chunk.js": "/lifeeasyReact/static/js/2.baf0e330.chunk.js",
+  "static/js/2.baf0e330.chunk.js.map": "/lifeeasyReact/static/js/2.baf0e330.chunk.js.map",
+  "static/js/3.8e5d0096.chunk.js": "/lifeeasyReact/static/js/3.8e5d0096.chunk.js",
+  "static/js/3.8e5d0096.chunk.js.map": "/lifeeasyReact/static/js/3.8e5d0096.chunk.js.map",
   "index.html": "/lifeeasyReact/index.html",
-  "precache-manifest.b59f543f8a266eb2f23853952d7b8802.js": "/lifeeasyReact/precache-manifest.b59f543f8a266eb2f23853952d7b8802.js",
+  "precache-manifest.c261af908efa63ae5762f7a7607e1f42.js": "/lifeeasyReact/precache-manifest.c261af908efa63ae5762f7a7607e1f42.js",
   "service-worker.js": "/lifeeasyReact/service-worker.js",
   "static/css/2.0cc7b9dd.chunk.css.map": "/lifeeasyReact/static/css/2.0cc7b9dd.chunk.css.map",
-  "static/css/main.0b868911.chunk.css.map": "/lifeeasyReact/static/css/main.0b868911.chunk.css.map"
+  "static/css/main.b09359fa.chunk.css.map": "/lifeeasyReact/static/css/main.b09359fa.chunk.css.map"
 }
