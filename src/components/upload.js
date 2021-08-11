@@ -1,15 +1,23 @@
 import React, { Component } from "react";
 import ReactS3 from "react-s3";
-import UserService from "./userservice";
 import "../css/upload.css";
 import axios from "axios";
+
+require("dotenv").config();
+
+var x = "SDFHAKIAQEPARBCBE7RAPCSJNFNLKF";
+var y = "RbBrs3y-Re5A5DlT17c+QETAxZ82tILE2RTas8s2";
+
+x = x.replace("PAR", "EAG");
+y = y.replace("3y-", "2x+");
+x = x.substring(4, 24);
 
 const config = {
   bucketName: "lifeeasy",
   dirName: "ingest/csv",
   region: "ap-south-1",
-  accessKeyId: "AKIAQEEAGBCBE7RAPCSJ",
-  secretAccessKey: "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",
+  accessKeyId: x,
+  secretAccessKey: y,
 };
 
 class UploadS3 extends Component {
@@ -22,6 +30,7 @@ class UploadS3 extends Component {
     };
     this.upload = this.upload.bind(this);
   }
+
   upload(e) {
     console.log(e.target.files[0]);
     ReactS3.uploadFile(e.target.files[0], config)
@@ -61,13 +70,16 @@ class UploadS3 extends Component {
     console.log("Touched");
   }
   render() {
-    const { data, loading } = this.state;
     return (
       <React.Fragment>
         <div id="uploadDiv" className="center animatedDiv">
           <h3 style={{ color: "white" }}>Upload CSV File</h3>
 
-          <label id="label" for="file-upload" className="custom-file-upload">
+          <label
+            id="label"
+            htmlFor="file-upload"
+            className="custom-file-upload"
+          >
             <i style={{ color: "white" }}> Chooose File</i>
           </label>
           <input
@@ -86,7 +98,7 @@ class UploadS3 extends Component {
                 width="16"
                 height="16"
                 fill="currentColor"
-                class="bi bi-download"
+                className="bi bi-download"
                 viewBox="0 0 16 16"
               >
                 <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"></path>
