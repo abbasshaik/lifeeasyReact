@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/lifeeasyReact/static/js/3.7e9070a3.chunk.js"
   },
   {
-    "revision": "709bfc7b373b2b1a932fce9f5d0c50fd",
+    "revision": "d2239c4e233ffbf3347b1d2d687a2223",
     "url": "/lifeeasyReact/index.html"
   }
 ];
