@@ -24,7 +24,7 @@ class UploadS3 extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      downloadxls: "http://localhost:8080/api/lifeeasy/downloadxls/",
+      downloadxls: "https://lifeeasy.herokuapp.com/api/lifeeasy/downloadxls/",
       csvname: "something",
       loading: false,
     };
@@ -43,9 +43,11 @@ class UploadS3 extends Component {
         console.log(filenamestr);
         this.setState({
           downloadxls:
-            "http://localhost:8080/api/lifeeasy/downloadxls/" + filenamestr,
+            "https://lifeeasy.herokuapp.com/api/lifeeasy/downloadxls/" +
+            filenamestr,
         });
-        var CONVERT_CSV_URL = "http://localhost:8080/api/lifeeasy/convert/csv/";
+        var CONVERT_CSV_URL =
+          "https://lifeeasy.herokuapp.com/api/lifeeasy/convert/csv/";
 
         this.setState({ loading: true }, () => {
           axios.post(CONVERT_CSV_URL + this.state.csvname).then((result) =>
